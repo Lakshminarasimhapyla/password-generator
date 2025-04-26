@@ -21,7 +21,4 @@ This is a simple password generator built using **HTML**, **CSS**, and **JavaScr
 ### Deployed on Vercel:
 [Click here to view live demo](https://password-generator-kohl-seven.vercel.app/)
 
----
-
-### License:
-This project is open-source and available under the [MIT License](LICENSE).
+Made with ❤️ by Lakshmi Narasimha Pyla

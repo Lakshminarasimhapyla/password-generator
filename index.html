@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Password Generator</h1>
+
+    <!-- Password output -->
+    <input type="text" id="password" readonly>
+
+    <!-- Length input -->
+    <label for="length" style="color: aliceblue;">Characters Graterthan Eight </label>
+    <input type="number" id="length" value="8" min="8" max="20">
+
+    <!-- Character types -->
+    <div class="char-types">
+      <label><input type="checkbox" id="uppercase" checked> Uppercase</label>
+      <label><input type="checkbox" id="lowercase"> Lowercase</label>
+      <label><input type="checkbox" id="numbers" checked> Numbers</label>
+      <label><input type="checkbox" id="symbols" checked> Symbols</label>
+    </div>
+
+    <!-- Generate button -->
+    <button onclick="generatePassword()">Generate Password</button>
+
+    <!-- Copy to clipboard button -->
+    <button onclick="copyToClipboard()">Copy to Clipboard</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
